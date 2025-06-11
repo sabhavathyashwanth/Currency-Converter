@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter-card">
+            <div class="card-front">
+                <h2><i class="fas fa-coins"></i> Currency Converter</h2>
+                <div class="amount-container">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="Enter amount" value="1">
+                </div>
+                <div class="currency-container">
+                    <div class="from-currency">
+                        <label for="from-search">From Currency</label>
+                        <div class="currency-search">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="from-search" placeholder="Search currency...">
+                        </div>
+                        <select id="from"></select>
+                    </div>
+                    <button id="swap-btn"><i class="fas fa-exchange-alt"></i></button>
+                    <div class="to-currency">
+                        <label for="to-search">To Currency</label>
+                        <div class="currency-search">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="to-search" placeholder="Search currency...">
+                        </div>
+                        <select id="to"></select>
+                    </div>
+                </div>
+                <div class="result-container">
+                    <div id="loading" class="loading-spinner hidden">
+                        <i class="fas fa-circle-notch fa-spin"></i>
+                    </div>
+                    <p id="result">1 USD = 0.85 EUR</p>
+                </div>
+                <button id="show-history" class="history-btn">Show History</button>
+            </div>
+            <div class="card-back">
+                <h3><i class="fas fa-history"></i> Conversion History</h3>
+                <div class="history-list" id="history-list">
+                    <!-- History items will be added here -->
+                </div>
+                <button id="clear-history" class="clear-btn">Clear History</button>
+                <button id="back-to-converter" class="back-btn">Back to Converter</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

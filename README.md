@@ -1,9 +1,5 @@
 # 3D Currency Converter
 
-![Currency Converter](https://img.shields.io/badge/Currency-Converter-2ecc71?style=for-the-badge) 
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-
 A modern, animated currency converter web application featuring real-time exchange rates, 3D animations, and support for over 100 currencies worldwide.
 
 ## ✨ Features
@@ -30,10 +26,6 @@ A modern, animated currency converter web application featuring real-time exchan
 - 🔍 Fast currency search and filtering
 
 ## 🚀 Quick Start
-
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, or Edge)
-- Internet connection for real-time conversion rates
 
 ### Installation
 
@@ -129,28 +121,6 @@ The application is fully responsive and works on:
 - All API calls use HTTPS
 - Input validation implemented
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👏 Acknowledgments
-
-- [ExchangeRate-API](https://www.exchangerate-api.com/) for providing exchange rate data
-- [Font Awesome](https://fontawesome.com/) for icons
-- [Google Fonts](https://fonts.google.com/) for the Poppins font family
-
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the maintainers.
-
 ---
 
-Made with ❤️ by [Your Name] 
+Made with ❤️ by [Sabhavath Yashwanth] 

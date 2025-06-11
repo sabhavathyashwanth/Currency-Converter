@@ -11,13 +11,6 @@ A modern, animated currency converter web application featuring real-time exchan
 - 📊 Historical conversion tracking
 - 🔍 Currency search functionality
 
-### User Interface
-- 🎨 Modern 3D animated design
-- 🌙 Dark mode interface
-- 💫 Smooth transitions and animations
-- 📱 Fully responsive layout
-- 🎯 Intuitive user experience
-
 ### Technical Features
 - ⚡ Debounced API calls for better performance
 - 💾 Local storage for conversion history
@@ -123,4 +116,4 @@ The application is fully responsive and works on:
 
 ---
 
-Made with ❤️ by [Sabhavath Yashwanth] 
+Made with ❤️ by Sabhavath Yashwanth
